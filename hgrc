@@ -1,0 +1,21 @@
+[ui]
+username = Denis Otkidach <denis.otkidach@gmail.com>
+verbose = True
+ssh = ssh -C
+
+[extensions]
+color =
+mq =
+hgext.bookmarks =
+hggit =
+hgsubversion =
+
+[color]
+status.unknown = none
+
+[diff]
+showfunc = true
+
+[alias]
+#log = log -G
+id = id -inbBt
