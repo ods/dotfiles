@@ -13,5 +13,5 @@
 [alias]
 	aliases = ! git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /' | sort
 	lg = log --graph --abbrev-commit --decorate --all
-	st = ! git log -1 HEAD -- && git status -bs -- 
+	st = "! git log -1 -- ; git status -bs --"
 	echo = ! echo "$@" && :
