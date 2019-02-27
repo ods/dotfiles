@@ -15,3 +15,5 @@
 	lg = log --graph --abbrev-commit --decorate --all
 	st = "! git log -1 -- ; git status -bs --"
 	echo = ! echo "$@" && :
+[submodule]
+	recurse = true
